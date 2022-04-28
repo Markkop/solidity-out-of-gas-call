@@ -1,5 +1,13 @@
 {
-  "name": "hardhat-project",
+  "name": "solidity-out-of-gas-call",
+  "scripts": {
+    "test": "hardhat test",
+    "verify": "hardhat verify",
+    "test:rinkeby": "hardhat test --network rinkeby",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "node": "hardhat node",
+    "typechain": "hardhat typechain"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
